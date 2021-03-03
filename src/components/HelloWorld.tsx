@@ -1,12 +1,15 @@
-import tsx from "vue-tsx-support";
+import * as tsx from "vue-tsx-support";
+import { VNode } from "vue";
 
 export default tsx.component({
   name: "HelloWorld",
   props: {
     msg: {
       type: String,
-      required: true,
-    },
+      required: true
+    }
   },
-  render: (...[, ctx]) => <h1>{ctx.props.msg}</h1>,
+  render(): VNode {
+    return <h1>{this.msg}</h1>;
+  }
 });
