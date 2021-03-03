@@ -1,7 +1,6 @@
-import * as tsx from "vue-tsx-support";
-import { VNode } from "vue";
+import tsx from "vue-tsx-support";
 
-export default tsx.componentFactory.create({
+export default tsx.component({
   name: "HelloWorld",
   props: {
     msg: {
@@ -9,7 +8,5 @@ export default tsx.componentFactory.create({
       required: true,
     },
   },
-  render(): VNode {
-    return <h1>{this.msg}</h1>;
-  },
+  render: (...[, ctx]) => <h1>{ctx.props.msg}</h1>,
 });

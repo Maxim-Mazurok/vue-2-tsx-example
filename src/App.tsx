@@ -1,10 +1,7 @@
-import * as tsx from "vue-tsx-support";
-import { VNode } from "vue";
+import tsx from "vue-tsx-support";
 import HelloWorld from "./components/HelloWorld";
 
-export default tsx.componentFactory.create({
+export default tsx.component({
   name: "App",
-  render(): VNode {
-    return <HelloWorld msg={"123"} />;
-  },
+  render: () => <HelloWorld msg={"123"} />,
 });
