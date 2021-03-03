@@ -1218,7 +1218,7 @@
     core-js-compat "^3.6.5"
     semver "^6.1.0"
 
-"@vue/babel-preset-jsx@^1.1.2":
+"@vue/babel-preset-jsx@^1.1.2", "@vue/babel-preset-jsx@^1.2.4":
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@vue/babel-preset-jsx/-/babel-preset-jsx-1.2.4.tgz#92fea79db6f13b01e80d3a0099e2924bdcbe4e87"
   integrity sha512-oRVnmN2a77bYDJzeGSt92AuHXbkIxbf/XXSE3klINnh9AXBmVS1DGa1f0d+dDYpLfsAKElMnqKTQfKn7obcL4w==
@@ -8526,6 +8526,11 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
+
+vue-tsx-support@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/vue-tsx-support/-/vue-tsx-support-3.1.0.tgz#8de51116017c1bb16a665222bd3d9846f2a058a6"
+  integrity sha512-zkdsR4lPRHUYs5hsAErSo7NunkFpgW2MprsH7ePCO6beGEYd/1KdLTA8CALZuUVkohnabEPe2Jcx8bMeeHZZ8g==
 
 vue@^2.6.11:
   version "2.6.12"
