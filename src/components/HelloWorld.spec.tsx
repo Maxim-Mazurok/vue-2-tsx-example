@@ -1,5 +1,6 @@
 import { mount } from "@vue/test-utils";
 import HelloWorld from "./HelloWorld";
+import { describe, it, expect } from "vitest";
 
 describe("componentFactory", () => {
   describe("create", () => {
